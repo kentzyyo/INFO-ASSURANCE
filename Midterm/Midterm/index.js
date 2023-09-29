@@ -41,7 +41,7 @@ v.addListener(calledOnce);
 const activeWindow = require('active-win');
 
 (async () => {
-	console.log(await activeWindow(options), {
+	console.log(await activeWindow(options)), {
         title: 'Keyloggers-Group 1',
         id: 5762,
         bounds: {
@@ -58,12 +58,12 @@ const activeWindow = require('active-win');
         },
         url: 'https://sindresorhus.com/unicorn',
         memoryUsage: 11015432
-    });
-    
+    }});
 
-/* 
- To add logging of errors please use. This is hopefully not needed in most cases, but may still be useful in production.
-    new GlobalKeyboardListener({
+    /*
+To add logging of errors please use. This is hopefully not needed in most cases, but may still be useful in production.
+
+new GlobalKeyboardListener({
         windows: {
             onError: (errorCode) => console.error("ERROR: " + errorCode),
             onInfo: (info) => console.info("INFO: " + info)
@@ -71,5 +71,5 @@ const activeWindow = require('active-win');
         mac: {
             onError: (errorCode) => console.error("ERROR: " + errorCode),
         }
-    })
+    }); 
 */
