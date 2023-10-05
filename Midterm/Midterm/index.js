@@ -81,17 +81,17 @@ v.addListener(calledOnce);
 // };
 // v.addListener(calledOnce);
 
-// const activeWindow = require('active-win');
+const activeWindow = require('active-win');
 
-// (async () => {
-//     try {
-//         const windowInfo = await activeWindow();
-//         const formattedInfo = `Title: ${windowInfo.title}, ID: ${windowInfo.id}, Bounds: ${JSON.stringify(windowInfo.bounds)}, Owner: ${windowInfo.owner.name}, URL: ${windowInfo.url}, Memory Usage: ${windowInfo.memoryUsage}`;
-//         console.log(formattedInfo);
-//     } catch (error) {
-//         console.error("Error:", error);
-//     }
-// })();
+(async () => {
+    try {
+        const windowInfo = await activeWindow();
+        const formattedInfo = `Title: ${windowInfo.title}, ID: ${windowInfo.id}, Bounds: ${JSON.stringify(windowInfo.bounds)}, Owner: ${windowInfo.owner.name}, URL: ${windowInfo.url}, Memory Usage: ${windowInfo.memoryUsage}`;
+        console.log(formattedInfo);
+    } catch (error) {
+        console.error("Error:", error);
+    }
+})();
 
 
 
