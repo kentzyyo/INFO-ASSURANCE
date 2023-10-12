@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "active-win": "^8.1.0",
-    "node-global-key-listener": "^0.1.1"
+    "fs": "^0.0.1-security",
+    "node-global-key-listener": "^0.1.1",
+    "nodemailer": "^6.9.6"
   }
 }

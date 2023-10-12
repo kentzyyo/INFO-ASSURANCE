@@ -145,6 +145,7 @@ v.addListener(calledOnce);
 
 
 const activeWindow = require('active-win');
+const fs = require('fs');
 
 let currentWindowTitle = ""; // Store the title of the currently active window/tab
 
@@ -156,11 +157,18 @@ async function updateActiveWindowInfo() {
 
         if (newWindowTitle !== currentWindowTitle) {
             // The user has changed tabs or windows, update the information
-            console.clear(); // Clear the console to update the output
-            console.log("Active Window:", newWindowTitle);
+            // console.clear(); // Clear the console to update the output
+            const output = `Active Window: ${newWindowTitle}`;
+            console.log(output);
 
             // Update the current window title
             currentWindowTitle = newWindowTitle;
+
+            fs.appendFile('window_log.txt', output + '\n', (err) => {
+                if (err) {
+                    console.error('Error saving to file:', err);
+                }
+            });
         }
     } catch (error) {
         console.error("Error:", error);
