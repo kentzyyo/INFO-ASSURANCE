@@ -39,7 +39,7 @@ function updateOutput(keyName, shiftState) {
     // checks if the Caps Lock key is pressed
     if (keyName === "CAPS LOCK"){
         capsLockPressed = !capsLockPressed;
-        currentOutput += '<CAPS LOCK> ';
+        currentOutput += `<CAPS LOCK>`;
         return;
     }
 
@@ -51,7 +51,7 @@ function updateOutput(keyName, shiftState) {
     // Convert the keyName to lowercase
     let enclosedKey;
     if (specialCharacters[keyName]){
-        enclosedKey = `${shiftState ? specialCharacters[keyName] : keyName}`;
+        enclosedKey = `<${shiftState ? specialCharacters[keyName] : keyName}>`;
     }
     else if (keyName.match(/^[a-zA-Z]$/)) {
         if (capsLockPressed) {
