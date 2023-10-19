@@ -26,7 +26,6 @@ function updateOutput(keyName) {
     }, 30000);
 }
 
-
 // Configure nodemailer with SMTP transport
 const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
