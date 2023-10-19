@@ -1,0 +1,6 @@
+<LEFT ALT> <TAB> Active Window: Command Prompt - node  index.js
+d f d s f d s <LEFT ALT> <TAB> Active Window: ● index.js - INFO-ASSURANCE - Visual Studio Code
+Active Window: Command Prompt - node  index.js
+Active Window: 
+<LEFT ALT> <TAB> Active Window: Command Prompt - node  index.js
+Active Window: Firefox Developer Edition
