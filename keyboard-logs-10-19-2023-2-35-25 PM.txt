@@ -1,7 +1,0 @@
-Active Window: ● index.js - INFO-ASSURANCE - Visual Studio Code
-f g f g f <UP ARROW> <DOWN ARROW> <LEFT META> n Active Window: Search
-o t e <RETURN> Active Window: 
-Active Window: dictionary - Notepad
-<LEFT CTRL> a h e Active Window: *dictionary - Notepad
-<SPACE> l l o <SPACE> w o r l d <RETURN> a <BACKSPACE> m a y <SPACE> c a p t u r e <SPACE> s y a <RIGHT SHIFT> <?> <RETURN> s i g e <SPACE> n g a <SPACE> m a t r y <SPACE> n g a <RETURN> h e l o <SPACE> h e h e <RETURN> f d s d <SPACE> d f k j h j d l d <RETURN> d s f g f <RETURN> f g d f g <RETURN> Active Window: Windows Shell Experience Host
-Active Window: *dictionary - Notepad

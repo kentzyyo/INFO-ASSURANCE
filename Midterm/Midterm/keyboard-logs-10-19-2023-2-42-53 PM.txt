@@ -1,4 +1,0 @@
-<RETURN> Active Window: Command Prompt - node  index.js
-s e l w g g f d g f d g f g f d g f g s e l w y n <SPACE> k e <LEFT ALT> <TAB> <LEFT ALT> <TAB> <LEFT ALT> <TAB> Active Window: Task Switching
-<LEFT ALT> <TAB> Active Window: Command Prompt - node  index.js
-<LEFT ALT> <TAB> Active Window: ● index.js - INFO-ASSURANCE - Visual Studio Code
