@@ -58,6 +58,9 @@ by **Group 1 - BSCS 3A**
 
 ![Screenshot 2023-12-07 140905](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/33d244ad-11b9-401e-a302-57ad6fb60c1f)
 
+> [!NOTE]
+> Plug in the SD card first on Raspberry Pi before proceeding to the next step.
+
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
  - In the command prompt, type SSH to access the network protocol. Then type the following command:
    - ssh username@hostname (e.g. group1@group1)
@@ -67,6 +70,21 @@ by **Group 1 - BSCS 3A**
  ![2(1)](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/a105c0e9-650b-4103-b8b2-03f07588c171)
  
  ![3](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/2bd078ad-1d70-44a7-9209-68f742ac4425)
+
+### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP.
+
+ - https://ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
+ - https://linuxhint.com/install-phpmyadmin-raspberry-pi/
+ - sudo apt install apache2
+ - sudo apt install mariadb-server
+ - sudo mysql_secure_installation
+ - sudo apt install php libapache2-mod-php php-mysql
+ - sudo apt-get install php*
+ - sudo apt install phpmyadmin
+
+### 4. Connect to Raspberry Pi via VNC
+ - sudo raspi-config
+ - https://www.realvnc.com/en/connect/download/viewer/
 
 
 
