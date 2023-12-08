@@ -71,16 +71,17 @@ by **Group 1 - BSCS 3A**
  
  ![3](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/2bd078ad-1d70-44a7-9209-68f742ac4425)
 
-### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP.
+### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP. 
+ - This stack is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP.
 
- - https://ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
- - https://linuxhint.com/install-phpmyadmin-raspberry-pi/
- - sudo apt install apache2
- - sudo apt install mariadb-server
- - sudo mysql_secure_installation
- - sudo apt install php libapache2-mod-php php-mysql
- - sudo apt-get install php*
- - sudo apt install phpmyadmin
+  - https://ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
+  - https://linuxhint.com/install-phpmyadmin-raspberry-pi/
+  - sudo apt install apache2
+  - sudo apt install mariadb-server
+  - sudo mysql_secure_installation
+  - sudo apt install php libapache2-mod-php php-mysql
+  - sudo apt-get install php*
+  - sudo apt install phpmyadmin
 
 ### 4. Connect to Raspberry Pi via VNC
  - sudo raspi-config
