@@ -60,11 +60,14 @@ by **Group 1 - BSCS 3A**
 
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
  - In the command prompt, type SSH to access the network protocol. Then type the following command:
-   - ssh _<username>@<hostname>_
+   - ssh username@hostname (e.g. group1@group1)
    - sudo apt update
    - sudo apt upgrade
 
-![1(1)](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/036996f6-9d3f-47e5-8599-7bfea41fbd9f)
+ ![2(1)](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/a105c0e9-650b-4103-b8b2-03f07588c171)
+ 
+ ![3](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/2bd078ad-1d70-44a7-9209-68f742ac4425)
+
 
 
 
