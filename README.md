@@ -39,6 +39,8 @@ by **Group 1 - BSCS 3A**
  - Click **Yes** to apply our customized settings.
    ![Screenshot 2023-12-07 140959](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/b1f04a91-fa82-44d9-ae70-e237221f1837)
 
+ > [!WARNING]
+ > Make sure to backup all existing data in the SD card to avoid deletion while formatting.
  - A warning will appear that all existing data on our SD card will be erased if we continue on our installation. Click **Yes** since our SD card have no existing files that needs to be backed up.
   ![Screenshot 2023-12-07 135833](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/5378f87f-03f9-45ab-a6c3-e25cba283b61)
 
@@ -57,10 +59,10 @@ by **Group 1 - BSCS 3A**
 ![Screenshot 2023-12-07 140905](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/33d244ad-11b9-401e-a302-57ad6fb60c1f)
 
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
- - In the command prompt, type SSH to access the network protocol.
-ssh <username>@<hostname>
-sudo apt update
-sudo apt upgrade
+ - In the command prompt, type SSH to access the network protocol. Then type the following command:
+   - ssh _<username>@<hostname>_
+   - sudo apt update
+   - sudo apt upgrade
 
 ![1(1)](https://github.com/kentzyyo/INFO-ASSURANCE/assets/61936205/036996f6-9d3f-47e5-8599-7bfea41fbd9f)
 
